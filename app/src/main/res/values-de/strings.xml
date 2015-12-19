@@ -42,6 +42,9 @@
     <string name="main_copied_text">KOPIERT</string>
     <string name="game_frag_game_refreshed_text">Spiele aktualisiert</string>
     <string name="main_search_view_hint_text">Nachricht an PS3 senden</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
     <string name="search_my_games">Search My Game</string>
 
 </resources>

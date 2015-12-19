@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">WebAnd</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Aggiornare</string>
     <string name="action_exit">Uscita</string>
     <string name="ps3_firm">Firmware:</string>
     <string name="ps3_ip">"IP: "</string>
+
+    <string name="ps3_fan_speed_down">FAN SPEED DOWN</string>
     <string name="ps3_cpu">CPU:</string>
     <string name="ps3_rsx">RSX:</string>
     <string name="ps3_hdd">HDD:</string>

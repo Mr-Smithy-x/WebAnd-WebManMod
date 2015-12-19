@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">WebAnd</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Aktualizacja</string>
+    <string name="action_exit">Wyjdź</string>
+    <string name="ps3_firm">Soft:</string>
+    <string name="ps3_ip">"IP: "</string>
+    <string name="ps3_cpu">CPU:</string>
+    <string name="ps3_rsx">RSX:</string>
+    <string name="ps3_hdd">HDD:</string>
+    <string name="ps3_mem">PAM:</string>
+    <string name="ps3_uptime">Czas pracy PS3:</string>
+    <string name="ps3_fan">P.Wiatr.:</string>
+    <string name="ps3_fan_speed_up">Zwiększ prędkość wiatraka</string>
+    <string name="ps3_fan_speed_down">Zmniejsz prędkość wiatraka</string>
+    <string name="ps3_fan_mode">Zmień tryb prędkości</string>
+    <string name="ps3_game_xml">Kopiuj Gry XML</string>
+    <string name="main_act_command_text">KOMENDY</string>
+    <string name="main_act_games_text">GRY</string>
+    <string name="main_act_settings_text">USTAWIENIA</string>
+    <string name="temp_imp_unit">Konwersja °C</string>
+    <string name="temp_met_unit">Konwersja °F</string>
+    <string name="game_frag_sent_text">"Wybrano: "</string>
+    <string name="game_frag_refresh_text">ODŚWIEŻ</string>
+    <string name="game_frag_unmount_text">Wymontuj</string>
+    <string name="game_frag_insert_text">Wsuń</string>
+    <string name="game_frag_eject_text">Wysuń</string>
+    <string name="game_frag_restart_text">Zrestartuj</string>
+    <string name="game_frag_shutdown_text">Wyłącz</string>
+    <string name="game_frag_refresh_desc_text">Odśwież Liste Gier</string>
+    <string name="game_frag_unmount_desc_text">Wymontuj aktualną Gre</string>
+    <string name="game_frag_insert_desc_text">Wsuń płytę do napędu</string>
+    <string name="game_frag_eject_desc_text">Wysuń płytę z napędu</string>
+    <string name="game_frag_restart_desc_text">Zrestartuj PS3</string>
+    <string name="game_frag_shutdown_desc_text">Wyłącz PS3</string>
+    <string name="main_ps3_connected_at">"POŁĄCZONO Z PS3: "</string>
+    <string name="main_please_wait_text">Proszę czekać</string>
+    <string name="main_search_for_ps3_text">Wyszukiwanie dla PS3...</string>
+    <string name="game_frag_launching_text">"Załadowano "</string>
+    <string name="main_up_to_date_text">Posiadasz najnowszą wersję :)</string>
+    <string name="main_copied_text">Kopiowanie</string>
+    <string name="game_frag_game_refreshed_text">ODŚWIEŻANIE GIER</string>
+    <string name="main_search_view_hint_text">Wyszukaj w PS3</string>
+    <string name="search_my_games">Search My Game</string>
+
+</resources>

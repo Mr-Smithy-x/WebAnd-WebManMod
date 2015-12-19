@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1">
+
+        <item
+            android:id="@+id/main_fan_up"
+            android:icon="@mipmap/ic_file_upload_grey600_48dp"
+            android:title="@string/ps3_fan_speed_up" />
+
+        <item
+            android:id="@+id/main_fan_dowm"
+            android:icon="@mipmap/ic_file_download_grey600_48dp"
+            android:title="@string/ps3_fan_speed_down" />
+        <item
+            android:id="@+id/main_fan_mode"
+            android:icon="@mipmap/ic_settings_backup_restore_grey600_48dp"
+            android:title="@string/ps3_fan_mode" />
+    </group>
+
+    <group
+        android:visible="false"
+        android:id="@+id/grp_split">
+        <item
+            android:icon="@mipmap/ic_autorenew_grey600_48dp"
+            android:id="@+id/main_game_xml"
+            android:title="@string/ps3_game_xml" />
+    </group>
+
+    <group
+        android:id="@+id/grp2"
+        android:enabled="false">
+        <item
+            android:id="@+id/main_nav_firm"
+            android:title="@string/ps3_firm"/>
+
+        <item
+            android:id="@+id/main_nav_ip"
+            android:title="@string/ps3_ip" />
+        <item
+            android:id="@+id/main_nav_cpu"
+            android:title="@string/ps3_cpu" />
+        <item
+            android:id="@+id/main_nav_rsx"
+            android:title="@string/ps3_rsx" />
+        <item
+            android:id="@+id/main_nav_hdd"
+            android:title="@string/ps3_hdd" />
+        <item
+            android:id="@+id/main_nav_mem"
+            android:title="@string/ps3_mem" />
+
+        <item
+            android:id="@+id/main_nav_utime"
+            android:title="@string/ps3_uptime" />
+
+        <item
+            android:id="@+id/main_nav_fan"
+            android:title="@string/ps3_fan" />
+
+    </group>
+
+    <group
+        android:id="@+id/grp3"
+        android:enabled="false">
+</group>
+
+
+</menu>

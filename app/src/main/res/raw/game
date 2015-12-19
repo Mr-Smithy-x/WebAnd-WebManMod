@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMBML version="1.0">
+    <View id="seg_mygames">
+        <Attributes>
+            <Table key="eject">
+                <Pair key="icon">
+                    <String>/dev_hdd0/tmp/wm_icons/icon_wm_eject.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Eject Disc</String>
+                </Pair>
+                <Pair key="info">
+                    <String>Unmount current game</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/unmount</String>
+                </Pair>
+            </Table>
+            <Table key="wm_ps3">
+                <Pair key="icon">
+                    <String>/dev_hdd0/tmp/wm_icons/icon_wm_album_ps3.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>PLAYSTATION®3</String>
+                </Pair>
+                <Pair key="info">
+                    <String>80 PS3 format games</String>
+                </Pair>
+                <Pair key="str_noitem">
+                    <String>msg_error_no_content</String>
+                </Pair>
+            </Table>
+            <Table key="wm_ps2">
+                <Pair key="icon">
+                    <String>/dev_hdd0/tmp/wm_icons/icon_wm_album_ps2.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>PLAYSTATION®2</String>
+                </Pair>
+                <Pair key="info">
+                    <String>14 PS2 format games</String>
+                </Pair>
+                <Pair key="str_noitem">
+                    <String>msg_error_no_content</String>
+                </Pair>
+            </Table>
+            <Table key="wm_psx">
+                <Pair key="icon">
+                    <String>/dev_hdd0/tmp/wm_icons/icon_wm_album_psx.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>PLAYSTATION®</String>
+                </Pair>
+                <Pair key="info">
+                    <String>2 PSOne format games</String>
+                </Pair>
+                <Pair key="str_noitem">
+                    <String>msg_error_no_content</String>
+                </Pair>
+            </Table>
+            <Table key="setup">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/multiman.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>webMAN Setup</String>
+                </Pair>
+                <Pair key="info">
+                    <String>Setup webMAN options</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="child">
+                    <String>segment</String>
+                </Pair>
+            </Table>
+        </Attributes>
+        <Items>
+            <Query class="type:x-xmb/folder-pixmap" key="setup" attr="setup" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/webMAN.xml#seg_webman_links_items"/>
+            <Query class="type:x-xmb/folder-pixmap" key="wm_ps3" attr="wm_ps3" src="#seg_wm_ps3_items"/>
+            <Query class="type:x-xmb/folder-pixmap" key="wm_ps2" attr="wm_ps2" src="#seg_wm_ps2_items"/>
+            <Query class="type:x-xmb/folder-pixmap" key="wm_psx" attr="wm_psx" src="#seg_wm_psx_items"/>
+        </Items>
+    </View>
+    <View id="seg_wm_ps3_items">
+        <Attributes>
+            <Table key="0016">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES00269.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>[PROTOTYPE]™ [BLES00269]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/[PROTOTYPE]%20[BLES00269].iso.0?random=e76d</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0017">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01532.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>[PROTOTYPE®2] [BLES01532]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/[PROTOTYPE2]%20[BLES01532].iso.0?random=53cf</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0018">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES00909.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>AC Brotherhood [BLES00909]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/AC%20Brotherhood%20[BLES00909].iso.0?random=2e78</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0019">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30607.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Alice: Madness Returns™ [BLUS30607]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Alice%20Madness%20Returns%20[BLUS30607].iso.0?random=e91a</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0020">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES00158.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Assassin's Creed [BLES00158]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Assassin's%20Creed%20[BLES00158].iso.0?random=b36e</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0021">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES00669.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Assassin's Creed II ™ [BLES00669]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Assassin's%20Creed%20II%20%20[BLES00669].iso.0?random=8ae1</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0022">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01667.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Assassin's Creed® III [BLES01667]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Assassin's%20Creed%20III%20[BLES01667].iso.0?random=f8a3</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0023">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01882.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Assassin's Creed® IV Black Flag [BLES01882]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Assassin's%20Creed%20IV%20Black%20Flag%20[BLES01882].iso.0?random=5214</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0024">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31465.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Assassin's Creed® Rogue [BLUS31465]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Assassin's%20Creed%20Rogue%20[BLUS31465].iso.0?random=fe2d</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0025">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES00503.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Batman: Arkham Asylum [BLES00503]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Batman%20Arkham%20Asylum%20[BLES00503].iso.0?random=3ed9</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0026">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30978.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Batman: Arkham City™ GOTY [BLUS30978]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Batman%20Arkham%20City%20GOTY%20[BLUS30978].iso.0?random=1ea7</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0027">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31207.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Batman™: Arkham Origins [BLUS31207]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Batman%20Arkham%20Origins%20[BLUS31207].iso.0?random=60d7</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0028">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BCUS98298.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Beyond: Two Souls™ [BCUS98298]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Beyond%20Two%20Souls%20[BCUS98298].iso.0?random=6e37</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0029">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01705.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>BioShock Infinite [BLES01705]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/BioShock%20Infinite%20[BLES01705].iso.0?random=d005</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0030">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31466.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Call of Duty® Advanced Warfare [BLUS31466]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Call%20of%20Duty%20Advanced%20Warfare%20[BLUS31466].iso.0?random=354f</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0031">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01717.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Call of Duty®: Black Ops II [BLES01717]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Call%20of%20Duty%20Black%20Ops%20II%20[BLES01717].iso.0?random=e5f9</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0032">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31270.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Call of Duty® Ghosts [BLUS31270]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Call%20of%20Duty%20Ghosts%20[BLUS31270].iso.0?random=9c29</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0033">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30838.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Call of Duty: Modern Warfare® 3 [BLUS30838]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Call%20of%20Duty%20Modern%20Warfare%203%20[BLUS30838].iso.0?random=15d2</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0034">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01623.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>DEAD OR ALIVE 5 [BLES01623]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/DEAD%20OR%20ALIVE%205%20[BLES01623].iso.0?random=a07d</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0035">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31146.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Deadpool [BLUS31146]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Deadpool%20[BLUS31146].iso.0?random=6d55</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0036">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31181.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Destiny [BLUS31181]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Destiny%20[BLUS31181].iso.0?random=aba4</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0037">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01627.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Disney Epic Mickey 2: The Power of Two [BLES01627]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Disney%20Epic%20Mickey%202%20The%20Power%20of%20Two%20[BLES01627].iso.0?random=20be</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0038">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30977.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Disney Infinity [BLUS30977]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Disney%20Infinity%20[BLUS30977].iso.0?random=5e3d</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0039">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30773.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Disney Universe [BLUS30773]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Disney%20Universe%20[BLUS30773].iso.0?random=8fe9</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0040">
+                <Pair key="icon">
+                    <String>/dev_hdd0/tmp/wmtmp/DRAGON BALL XENOVERSE [BLJS10292].PNG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>DRAGON BALL XENOVERSE [BLJS10292]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/DRAGON%20BALL%20XENOVERSE%20[BLJS10292].iso.0?random=ceea</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0041">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30823.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Dragon Ball Z Ultimate Tenkaichi [BLUS30823]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Dragon%20Ball%20Z%20Ultimate%20Tenkaichi%20[BLUS30823].iso.0?random=64b5</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0042">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31433.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Escape Dead Island [BLUS31433]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Escape%20Dead%20Island%20[BLUS31433].iso.0?random=b4f6</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0043">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31420.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Far Cry® 4 [BLUS31420]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Far%20Cry%204%20[BLUS31420].iso.0?random=dd4c</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0044">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01128.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Grand Theft Auto IV: Complete Edition [BLES01128]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Grand%20Theft%20Auto%20IV%20Complete%20Edition%20[BLES01128].iso.0?random=9fb0</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0045">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01807.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Grand Theft Auto V [BLES01807]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Grand%20Theft%20Auto%20V%20[BLES01807].iso.0?random=e058</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0046">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BCUS98132.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Heavenly Sword™  [BCUS98132]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Heavenly%20Sword%20%20[BCUS98132].iso.0?random=8f49</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0047">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BCUS98164.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>HEAVY RAIN™ [BCUS98164]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/HEAVY%20RAIN%20[BCUS98164].iso.0?random=90a3</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0048">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BCUS98125.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>inFAMOUS™ 2 [BCUS98125]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/inFAMOUS%202%20[BCUS98125].iso.0?random=e3ba</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0049">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01967.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Injustice: Gods Among Us Ultimate Edition [BLES01967]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Injustice%20Gods%20Among%20Us%20Ultimate%20Edition%20[BLES01967].iso.0?random=499</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0050">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BCUS98281.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Jak and Daxter Collection™ [BCUS98281]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Jak%20and%20Daxter%20Collection%20[BCUS98281].iso.0?random=41aa</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0051">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31212.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>KINGDOM HEARTS HD 1.5 ReMIX [BLUS31212]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/KINGDOM%20HEARTS%20HD%201.5%20ReMIX%20[BLUS31212].iso.0?random=fe24</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0052">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES00933.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>L.A. Noire [BLES00933]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/L.A.%20Noire%20[BLES00933].iso.0?random=bc55</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0053">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31434.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>LEGO® Batman™ 3 [BLUS31434]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/LEGO%20Batman%203%20[BLUS31434].iso.0?random=4dca</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0054">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30175.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>LEGO® Batman™: The Videogame [BLUS30175]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/LEGO%20Batman%20The%20Videogame.iso.0?random=1e7a</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0055">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30425.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>LEGO® Indiana Jones™ 2: The Adventure Continues [BLUS30425]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/LEGO%20Indiana%20Jones%202%20The%20Adventure%20Continues.iso.0?random=212a</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0056">
+                <Pair key="icon">
+                    <String>/dev_hdd0/tmp/wmtmp/LEGO Jurassic World [BLES02132].PNG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>LEGO® Jurassic World™ [BLES02132]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/LEGO%20Jurassic%20World%20[BLES02132].iso.0?random=45c3</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0057">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31161.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>LEGO® Marvel Super Heroes [BLUS31161]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/LEGO%20Marvel%20Super%20Heroes%20[BLUS31161].iso.0?random=7826</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0058">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31392.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>LEGO® The Hobbit™ [BLUS31392]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/LEGO%20The%20Hobbit%20[BLUS31392].iso.0?random=721e</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0059">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01811.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>LIGHTNING RETURNS: FINAL FANTASY XIII [BLES01811]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/LIGHTNING%20RETURNS%20FINAL%20FANTASY%20XIII%20[BLES01811].iso.0?random=b7f3</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0060">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BCES01422.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>LittleBigPlanet™ Karting [BCES01422]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/LittleBigPlanet%20Karting%20[BCES01422].iso.0?random=9bde</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0061">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BCUS98362.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>LittleBigPlanet™3 [BCUS98362]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/LittleBigPlanet3%20[BCUS98362].iso.0?random=a832</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0062">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30525.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Marvel Super Hero Squad: The Infinity Gauntlet [BLUS30525]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Marvel%20Super%20Hero%20Squad%20The%20Infinity%20Gauntlet%20[BLUS30525].iso.0?random=95a1</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0063">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31059.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Middle-Earth™: Shadow of Mordor™ [BLUS31059]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Middle-Earth%20Shadow%20of%20Mordor%20[BLUS31059].iso.0?random=9fb9</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0064">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30016.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Need for Speed™ Carbon [BLUS30016]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Need%20for%20Speed%20Carbon%20[BLUS30016].iso.0?random=6ffe</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0065">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31201.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Need for Speed™ Rivals [BLUS31201]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Need%20for%20Speed%20Rivals%20[BLUS31201].iso.0?random=ed10</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0066">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31458.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>PAC-MAN and the Ghostly Adventures 2 [BLUS31458]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/PAC-MAN%20and%20the%20Ghostly%20Adventures%202%20[BLUS31458].iso.0?random=e9cd</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0067">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BCUS98472.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>PlayStation® All-Stars Battle Royale [BCUS98472]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/PlayStation%20All-Stars%20Battle%20Royale%20[BCUS98472].iso.0?random=435f</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0068">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30732.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Portal 2 [BLUS30732]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Portal%202%20[BLUS30732].iso.0?random=dcf0</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0069">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BCES01908.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Ratchet & Clank™: Nexus [BCES01908]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Ratchet%20&%20Clank%20Nexus%20[BCES01908].iso.0?random=6785</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0070">
+                <Pair key="icon">
+                    <String>/dev_hdd0/tmp/wmtmp/Resident Evil [NPUB31552].PNG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Resident Evil [NPUB31552]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Resident%20Evil%20[NPUB31552].iso.0?random=4cd8</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0071">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01465.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>RESIDENT EVIL 6 [BLES01465]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/RESIDENT%20EVIL%206%20[BLES01465].iso.0?random=380e</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0072">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01288.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>RESIDENT EVIL™ Operation Raccoon City [BLES01288]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/RESIDENT%20EVIL%20Operation%20Raccoon%20City%20[BLES01288].iso.0?random=1e08</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0073">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31444.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>RESIDENT EVIL REVELATIONS 2 [BLUS31444]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/RESIDENT%20EVIL%20REVELATIONS%202%20[BLUS31444].iso.0?random=9c0c</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0074">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/NPUB30648.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>RESIDENT EVIL THE DARKSIDE CHRONICLES [NPUB30648]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/RESIDENT%20EVIL%20THE%20DARKSIDE%20CHRONICLES%20[NPUB30648].iso.0?random=d46</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0075">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/NPUB30650.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>resident evil THE UMBRELLA CHRONICLES [NPUB30650]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/resident%20evil%20THE%20UMBRELLA%20CHRONICLES%20[NPUB30650].iso.0?random=d11b</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0076">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES02095.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Saints Row: Gat out of Hell [BLES02095]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Saints%20Row%20Gat%20out%20of%20Hell%20[BLES02095].iso.0?random=d37d</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0077">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31205.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Saints Row IV [BLUS31205]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Saints%20Row%20IV%20[BLUS31205].iso.0?random=cf0d</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0078">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES00460.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Silent Hill: Homecoming [BLES00460]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Silent%20Hill%20Homecoming%20[BLES00460].iso.0?random=88c9</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0079">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30778.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Skyrim [BLUS30778]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Skyrim%20[BLUS30778].iso.0?random=b738</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0080">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS31202.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Skyrim [BLUS31202]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Skyrim%20[BLUS31202].iso.0?random=2b33</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0081">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01646.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Sonic & All-Stars Racing Transformed™ [BLES01646]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Sonic%20&%20All-Stars%20Racing%20Transformed%20[BLES01646].iso.0?random=7e1</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0082">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01236.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>SONIC GENERATIONS [BLES01236]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/SONIC%20GENERATIONS%20[BLES01236].iso.0?random=a041</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0083">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES00425.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>SONIC UNLEASHED [BLES00425]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/SONIC%20UNLEASHED%20[BLES00425].iso.0?random=7ba4</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0084">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30499.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Spider-Man™: Shattered Dimensions [BLUS30499]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Spider-Man%20Shattered%20Dimensions%20[BLUS30499].iso.0?random=676b</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0085">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES00392.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Spider-Man: Web of Shadows [BLES00392]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Spider-Man%20Web%20of%20Shadows%20[BLES00392].iso.0?random=6848</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0086">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01120.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>SPLATTERHOUSE [BLES01120]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/SPLATTERHOUSE%20[BLES01120].iso.0?random=4591</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0087">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS41044.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>The Amazing Spider-Man 2™ [BLUS41044]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/The%20Amazing%20Spider-Man%202%20[BLUS41044].iso.0?random=d5a2</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0088">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01916.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>The Evil Within [BLES01916]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/The%20Evil%20Within%20[BLES01916].iso.0?random=9b74</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0089">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLUS30042.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>The Fantastic Four: Rise of the Silver Surfer [BLUS30042]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/The%20Fantastic%20Four%20Rise%20of%20the%20Silver%20Surfer.iso.0?random=e32b</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0090">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01964.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>The LEGO® Movie - Videogame [BLES01964]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/The%20LEGO%20Movie%20-%20Videogame%20[BLES01964].iso.0?random=493f</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0091">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01779.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>The Walking Dead : Survival Instinct [BLES01779]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/The%20Walking%20Dead%20%20Survival%20Instinct%20[BLES01779].iso.0?random=f95b</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0092">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01975.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>The Walking Dead [BLES01975]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/The%20Walking%20Dead%20[BLES01975].iso.0?random=2678</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0093">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01982.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Thief [BLES01982]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Thief%20[BLES01982].iso.0?random=ea09</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0094">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BLES01780.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Tomb Raider [BLES01780]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Tomb%20Raider%20[BLES01780].iso.0?random=666b</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0095">
+                <Pair key="icon">
+                    <String>/dev_hdd0/game/BLES80608/USRDIR/covers/BCES01175.JPG</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Uncharted 3: Drake's Deception™ [BCES01175]</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_usb000/PS3ISO/Uncharted%203%20Drake's%20Deception%20[BCES01175].iso.0?random=1e8c</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_usb000/PS3ISO</String>
+                </Pair>
+            </Table>
+        </Attributes>
+        <Items>
+            <Item class="type:x-xmb/module-action" key="0016" attr="0016"/>
+            <Item class="type:x-xmb/module-action" key="0017" attr="0017"/>
+            <Item class="type:x-xmb/module-action" key="0018" attr="0018"/>
+            <Item class="type:x-xmb/module-action" key="0019" attr="0019"/>
+            <Item class="type:x-xmb/module-action" key="0020" attr="0020"/>
+            <Item class="type:x-xmb/module-action" key="0021" attr="0021"/>
+            <Item class="type:x-xmb/module-action" key="0022" attr="0022"/>
+            <Item class="type:x-xmb/module-action" key="0023" attr="0023"/>
+            <Item class="type:x-xmb/module-action" key="0024" attr="0024"/>
+            <Item class="type:x-xmb/module-action" key="0025" attr="0025"/>
+            <Item class="type:x-xmb/module-action" key="0026" attr="0026"/>
+            <Item class="type:x-xmb/module-action" key="0027" attr="0027"/>
+            <Item class="type:x-xmb/module-action" key="0028" attr="0028"/>
+            <Item class="type:x-xmb/module-action" key="0029" attr="0029"/>
+            <Item class="type:x-xmb/module-action" key="0030" attr="0030"/>
+            <Item class="type:x-xmb/module-action" key="0031" attr="0031"/>
+            <Item class="type:x-xmb/module-action" key="0032" attr="0032"/>
+            <Item class="type:x-xmb/module-action" key="0033" attr="0033"/>
+            <Item class="type:x-xmb/module-action" key="0034" attr="0034"/>
+            <Item class="type:x-xmb/module-action" key="0035" attr="0035"/>
+            <Item class="type:x-xmb/module-action" key="0036" attr="0036"/>
+            <Item class="type:x-xmb/module-action" key="0037" attr="0037"/>
+            <Item class="type:x-xmb/module-action" key="0038" attr="0038"/>
+            <Item class="type:x-xmb/module-action" key="0039" attr="0039"/>
+            <Item class="type:x-xmb/module-action" key="0040" attr="0040"/>
+            <Item class="type:x-xmb/module-action" key="0041" attr="0041"/>
+            <Item class="type:x-xmb/module-action" key="0042" attr="0042"/>
+            <Item class="type:x-xmb/module-action" key="0043" attr="0043"/>
+            <Item class="type:x-xmb/module-action" key="0044" attr="0044"/>
+            <Item class="type:x-xmb/module-action" key="0045" attr="0045"/>
+            <Item class="type:x-xmb/module-action" key="0046" attr="0046"/>
+            <Item class="type:x-xmb/module-action" key="0047" attr="0047"/>
+            <Item class="type:x-xmb/module-action" key="0048" attr="0048"/>
+            <Item class="type:x-xmb/module-action" key="0049" attr="0049"/>
+            <Item class="type:x-xmb/module-action" key="0050" attr="0050"/>
+            <Item class="type:x-xmb/module-action" key="0051" attr="0051"/>
+            <Item class="type:x-xmb/module-action" key="0052" attr="0052"/>
+            <Item class="type:x-xmb/module-action" key="0053" attr="0053"/>
+            <Item class="type:x-xmb/module-action" key="0054" attr="0054"/>
+            <Item class="type:x-xmb/module-action" key="0055" attr="0055"/>
+            <Item class="type:x-xmb/module-action" key="0056" attr="0056"/>
+            <Item class="type:x-xmb/module-action" key="0057" attr="0057"/>
+            <Item class="type:x-xmb/module-action" key="0058" attr="0058"/>
+            <Item class="type:x-xmb/module-action" key="0059" attr="0059"/>
+            <Item class="type:x-xmb/module-action" key="0060" attr="0060"/>
+            <Item class="type:x-xmb/module-action" key="0061" attr="0061"/>
+            <Item class="type:x-xmb/module-action" key="0062" attr="0062"/>
+            <Item class="type:x-xmb/module-action" key="0063" attr="0063"/>
+            <Item class="type:x-xmb/module-action" key="0064" attr="0064"/>
+            <Item class="type:x-xmb/module-action" key="0065" attr="0065"/>
+            <Item class="type:x-xmb/module-action" key="0066" attr="0066"/>
+            <Item class="type:x-xmb/module-action" key="0067" attr="0067"/>
+            <Item class="type:x-xmb/module-action" key="0068" attr="0068"/>
+            <Item class="type:x-xmb/module-action" key="0069" attr="0069"/>
+            <Item class="type:x-xmb/module-action" key="0070" attr="0070"/>
+            <Item class="type:x-xmb/module-action" key="0071" attr="0071"/>
+            <Item class="type:x-xmb/module-action" key="0072" attr="0072"/>
+            <Item class="type:x-xmb/module-action" key="0073" attr="0073"/>
+            <Item class="type:x-xmb/module-action" key="0074" attr="0074"/>
+            <Item class="type:x-xmb/module-action" key="0075" attr="0075"/>
+            <Item class="type:x-xmb/module-action" key="0076" attr="0076"/>
+            <Item class="type:x-xmb/module-action" key="0077" attr="0077"/>
+            <Item class="type:x-xmb/module-action" key="0078" attr="0078"/>
+            <Item class="type:x-xmb/module-action" key="0079" attr="0079"/>
+            <Item class="type:x-xmb/module-action" key="0080" attr="0080"/>
+            <Item class="type:x-xmb/module-action" key="0081" attr="0081"/>
+            <Item class="type:x-xmb/module-action" key="0082" attr="0082"/>
+            <Item class="type:x-xmb/module-action" key="0083" attr="0083"/>
+            <Item class="type:x-xmb/module-action" key="0084" attr="0084"/>
+            <Item class="type:x-xmb/module-action" key="0085" attr="0085"/>
+            <Item class="type:x-xmb/module-action" key="0086" attr="0086"/>
+            <Item class="type:x-xmb/module-action" key="0087" attr="0087"/>
+            <Item class="type:x-xmb/module-action" key="0088" attr="0088"/>
+            <Item class="type:x-xmb/module-action" key="0089" attr="0089"/>
+            <Item class="type:x-xmb/module-action" key="0090" attr="0090"/>
+            <Item class="type:x-xmb/module-action" key="0091" attr="0091"/>
+            <Item class="type:x-xmb/module-action" key="0092" attr="0092"/>
+            <Item class="type:x-xmb/module-action" key="0093" attr="0093"/>
+            <Item class="type:x-xmb/module-action" key="0094" attr="0094"/>
+            <Item class="type:x-xmb/module-action" key="0095" attr="0095"/>
+        </Items>
+    </View>
+    <View id="seg_wm_ps2_items">
+        <Attributes>
+            <Table key="0000">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Lara Croft Tomb Raider - Anniversary.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Lara Croft Tomb Raider - Anniversary</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Lara%20Croft%20Tomb%20Raider%20-%20Anniversary.iso?random=1388</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0001">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Grand Theft Auto - San Andreas.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Grand Theft Auto - San Andreas</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Grand%20Theft%20Auto%20-%20San%20Andreas.iso?random=2524</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0002">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Lara Croft Tomb Raider - The Angel of Darkness.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Lara Croft Tomb Raider - The Angel of Darkness</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Lara%20Croft%20Tomb%20Raider%20-%20The%20Angel%20of%20Darkness.iso?random=2cc3</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0003">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Grand Theft Auto - Vice City Stories.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Grand Theft Auto - Vice City Stories</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Grand%20Theft%20Auto%20-%20Vice%20City%20Stories.ISO?random=3252</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0004">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Grand Theft Auto - Vice City.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Grand Theft Auto - Vice City</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Grand%20Theft%20Auto%20-%20Vice%20City.iso?random=a06f</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0005">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Grand Theft Auto - Liberty City Stories.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Grand Theft Auto - Liberty City Stories</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Grand%20Theft%20Auto%20-%20Liberty%20City%20Stories.iso?random=a5ca</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0006">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Grand Theft Auto III.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Grand Theft Auto III</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Grand%20Theft%20Auto%20III.iso?random=acb9</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0007">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Lara Croft Tomb Raider - Legend.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Lara Croft Tomb Raider - Legend</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Lara%20Croft%20Tomb%20Raider%20-%20Legend.iso?random=b494</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0008">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Outlaw Volleyball -Remixed.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Outlaw Volleyball -Remixed</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Outlaw%20Volleyball%20-Remixed.iso?random=bb77</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0009">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Mortal Kombat - Armageddon - Premium Edition.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Mortal Kombat - Armageddon - Premium Edition</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Mortal%20Kombat%20-%20Armageddon%20-%20Premium%20Edition.iso?random=36d7</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0010">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Tekken 5.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Tekken 5</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Tekken%205.iso?random=42d6</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0011">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Summer Heat Beach Volleyball.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Summer Heat Beach Volleyball</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Summer%20Heat%20Beach%20Volleyball.iso?random=48ec</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0012">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PS2ISO/Tekken 4.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>Tekken 4</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/Tekken%204.iso?random=1b53</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO</String>
+                </Pair>
+            </Table>
+            <Table key="0013">
+                <Pair key="icon">
+                    <String>/dev_hdd0/tmp/wm_icons/icon_wm_ps2.png</String>
+                </Pair>
+                <Pair key="title">
+                    <String>[PS2C-00000] Grand Theft Auto III [PS2 Classic]/ISO.BIN</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PS2ISO/[PS2C-00000]%20Grand%20Theft%20Auto%20III%20[PS2%20Classic]/ISO.BIN.ENC?random=20e6</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PS2ISO/[PS2C-00000] Grand Theft Auto III [PS2 Classic]</String>
+                </Pair>
+            </Table>
+        </Attributes>
+        <Items>
+            <Item class="type:x-xmb/module-action" key="0013" attr="0013"/>
+            <Item class="type:x-xmb/module-action" key="0001" attr="0001"/>
+            <Item class="type:x-xmb/module-action" key="0003" attr="0003"/>
+            <Item class="type:x-xmb/module-action" key="0004" attr="0004"/>
+            <Item class="type:x-xmb/module-action" key="0005" attr="0005"/>
+            <Item class="type:x-xmb/module-action" key="0006" attr="0006"/>
+            <Item class="type:x-xmb/module-action" key="0000" attr="0000"/>
+            <Item class="type:x-xmb/module-action" key="0002" attr="0002"/>
+            <Item class="type:x-xmb/module-action" key="0007" attr="0007"/>
+            <Item class="type:x-xmb/module-action" key="0009" attr="0009"/>
+            <Item class="type:x-xmb/module-action" key="0008" attr="0008"/>
+            <Item class="type:x-xmb/module-action" key="0011" attr="0011"/>
+            <Item class="type:x-xmb/module-action" key="0010" attr="0010"/>
+            <Item class="type:x-xmb/module-action" key="0012" attr="0012"/>
+        </Items>
+    </View>
+    <View id="seg_wm_psx_items">
+        <Attributes>
+            <Table key="0014">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PSXISO/BloodyRoar.jpg</String>
+                </Pair>
+                <Pair key="title">
+                    <String>BloodyRoar</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PSXISO/BloodyRoar.cue?random=741a</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PSXISO</String>
+                </Pair>
+            </Table>
+            <Table key="0015">
+                <Pair key="icon">
+                    <String>/dev_hdd0/PSXISO/BloodyRoarII.jpg</String>
+                </Pair>
+                <Pair key="title">
+                    <String>BloodyRoarII</String>
+                </Pair>
+                <Pair key="module_name">
+                    <String>webbrowser_plugin</String>
+                </Pair>
+                <Pair key="module_action">
+                    <String>http://127.0.0.1/mount_ps3/dev_hdd0/PSXISO/BloodyRoarII.cue?random=224a</String>
+                </Pair>
+                <Pair key="info">
+                    <String>/dev_hdd0/PSXISO</String>
+                </Pair>
+            </Table>
+        </Attributes>
+        <Items>
+            <Item class="type:x-xmb/module-action" key="0014" attr="0014"/>
+            <Item class="type:x-xmb/module-action" key="0015" attr="0015"/>
+        </Items>
+    </View>
+</XMBML>

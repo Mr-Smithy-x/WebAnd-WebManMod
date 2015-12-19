@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">WebAnd</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">обновление</string>
+    <string name="action_exit">Выход</string>
+    <string name="ps3_firm">Прошивка:</string>
+    <string name="ps3_ip">"IP: "</string>
+    <string name="ps3_cpu">CPU:</string>
+    <string name="ps3_rsx">RSX:</string>
+    <string name="ps3_hdd">HDD:</string>
+    <string name="ps3_mem">MEM:</string>
+    <string name="ps3_uptime">время:</string>
+    <string name="ps3_fan">скорость вентилятора:</string>
+    <string name="ps3_fan_speed_up">Скорость вентилятора до</string>
+    <string name="ps3_fan_speed_down">Скорость вентилятора вниз</string>
+    <string name="ps3_fan_mode">РЕЖИМ ВЕНТИЛЯТОРА</string>
+    <string name="ps3_game_xml">Копировать Игра XML</string>
+    <string name="main_act_command_text">команда</string>
+    <string name="main_act_games_text">ИГРЫ</string>
+    <string name="main_act_settings_text">НАСТРОЙКИ</string>
+    <string name="temp_imp_unit">Императорский блок</string>
+    <string name="temp_met_unit">Метрическая единица</string>
+    <string name="game_frag_sent_text">"Послал: "</string>
+    <string name="game_frag_refresh_text">обновление</string>
+    <string name="game_frag_unmount_text">удалить игру</string>
+    <string name="game_frag_insert_text">Вставить</string>
+    <string name="game_frag_eject_text">извлечение</string>
+    <string name="game_frag_restart_text">перезапуск</string>
+    <string name="game_frag_shutdown_text">выключить</string>
+    <string name="game_frag_refresh_desc_text">Обновить список игр</string>
+    <string name="game_frag_unmount_desc_text">удалить текущую игру</string>
+    <string name="game_frag_insert_desc_text">Вставьте диск</string>
+    <string name="game_frag_eject_desc_text">Извлеките диск</string>
+    <string name="game_frag_restart_desc_text">Перезагрузите PS3</string>
+    <string name="game_frag_shutdown_desc_text">выключите PS3</string>
+    <string name="main_ps3_connected_at">"PS3 связи: "</string>
+    <string name="main_please_wait_text">пожалуйста, подождите</string>
+    <string name="main_search_for_ps3_text">Поиск для PS3...</string>
+    <string name="game_frag_launching_text">"Запуск "</string>
+    <string name="main_up_to_date_text">Нет обновления :)</string>
+    <string name="main_copied_text">КОПИРОВАНИЕ</string>
+    <string name="game_frag_game_refreshed_text">Игры обновляются</string>
+    <string name="main_search_view_hint_text">Send Msg To PS3</string>
+    <string name="search_my_games">Search My Game</string>
+
+</resources>

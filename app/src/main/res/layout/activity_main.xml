@@ -1,0 +1,124 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_drawer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_coord"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/main_appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            android:fitsSystemWindows="true"
+            app:elevation="6dp"
+            app:expanded="true">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/main_collapse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentScrim="?attr/colorPrimary"
+                android:fitsSystemWindows="true"
+                app:expandedTitleMarginEnd="64dp"
+                app:expandedTitleMarginStart="48dp"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <ImageView
+                    android:id="@+id/main_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/parallax"
+                    app:layout_collapseMode="parallax" />
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/main_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:subtitleTextColor="@color/md_white_1000"
+                    app:theme="@style/Theme.AppCompat.NoActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:title="WebAnd - Beta"
+                    app:titleTextColor="@color/md_white_1000">
+
+
+                </android.support.v7.widget.Toolbar>
+
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/main_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="72dp"
+                app:paddingStart="72dp"
+                app:tabMode="scrollable"
+                app:tabBackground="@color/md_blue_500"
+                app:tabIndicatorColor="@color/md_white_1000"
+                app:tabSelectedTextColor="@color/md_white_1000"
+                app:tabTextColor="@color/md_blue_700" />
+
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/main_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@mipmap/ic_wifi_tethering_white_48dp"
+            app:layout_anchorGravity="bottom|right|end"
+            app:borderWidth="0dp"
+            app:layout_anchor="@id/main_pager"
+
+            app:elevation="4dp"
+            app:pressedTranslationZ="8dp" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/small_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:src="@mipmap/ic_autorenew_grey600_48dp"
+            app:layout_anchor="@id/main_appbar"
+            app:borderWidth="0dp"
+            app:elevation="8dp"
+            app:fabSize="mini"
+            app:layout_anchorGravity="bottom|left|start"
+            app:backgroundTint="@color/md_white_1000"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:pressedTranslationZ="12dp"
+            app:rippleColor="@color/md_white_1000" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/main_nav"
+        app:menu="@menu/menu_nav"
+
+        android:gravity="start|left"
+        android:layout_gravity="start|left"
+        app:headerLayout="@layout/header_view"
+        app:itemTextColor="@color/md_grey_500"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</android.support.v4.widget.DrawerLayout>

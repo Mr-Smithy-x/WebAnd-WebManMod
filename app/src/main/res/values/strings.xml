@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">WebAnd</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Update</string>
+    <string name="action_exit">Exit</string>
+    <string name="ps3_firm">Firmware:</string>
+    <string name="ps3_ip">"IP: "</string>
+    <string name="ps3_cpu">CPU:</string>
+    <string name="ps3_rsx">RSX:</string>
+    <string name="ps3_hdd">HDD:</string>
+    <string name="ps3_mem">MEM:</string>
+    <string name="ps3_uptime">UP TIME:</string>
+    <string name="ps3_fan">FAN SPEED:</string>
+    <string name="ps3_fan_speed_up">FAN SPEED UP</string>
+    <string name="ps3_fan_speed_down">FAN SPEED DOWN</string>
+    <string name="ps3_fan_mode">CHANGE FAN MODE</string>
+    <string name="ps3_game_xml">COPY GAME XML</string>
+    <string name="main_act_command_text">Command</string>
+    <string name="main_act_games_text">Games</string>
+    <string name="main_act_settings_text">Settings</string>
+    <string name="temp_imp_unit">Imperial Unit</string>
+    <string name="temp_met_unit">Metric Unit</string>
+    <string name="game_frag_sent_text">"Sent: "</string>
+    <string name="game_frag_refresh_text">Refresh</string>
+    <string name="game_frag_unmount_text">Unmount</string>
+    <string name="game_frag_insert_text">Insert</string>
+    <string name="game_frag_eject_text">Eject</string>
+    <string name="game_frag_restart_text">Restart</string>
+    <string name="game_frag_shutdown_text">Shutdown</string>
+    <string name="game_frag_refresh_desc_text">Refresh The Game List</string>
+    <string name="game_frag_unmount_desc_text">Unmount The Current Game</string>
+    <string name="game_frag_insert_desc_text">Insert Disk</string>
+    <string name="game_frag_eject_desc_text">Eject Disk</string>
+    <string name="game_frag_restart_desc_text">Restart Your PS3</string>
+    <string name="game_frag_shutdown_desc_text">Shutdown Your PS3</string>
+    <string name="main_ps3_connected_at">"PS3 Connected: "</string>
+    <string name="main_please_wait_text">Please Wait</string>
+    <string name="main_search_for_ps3_text">Searching For PS3...</string>
+    <string name="game_frag_launching_text">"Launching "</string>
+    <string name="main_up_to_date_text">You are up to date :)</string>
+    <string name="main_copied_text">COPIED</string>
+    <string name="game_frag_game_refreshed_text">Games refreshed</string>
+    <string name="main_search_view_hint_text">Send Msg To PS3</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="search_my_games">Search My Game</string>
+
+</resources>

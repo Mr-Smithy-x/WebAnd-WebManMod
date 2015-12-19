@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">WebAnd</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Mettre à jour</string>
+    <string name="action_exit">Sortie</string>
+    <string name="ps3_firm">Firmware:</string>
+    <string name="ps3_ip">"IP: "</string>
+    <string name="ps3_cpu">CPU:</string>
+    <string name="ps3_rsx">RSX:</string>
+    <string name="ps3_hdd">HDD:</string>
+    <string name="ps3_mem">MEM:</string>
+    <string name="ps3_uptime">Jusqu\&apos; à Temps:</string>
+    <string name="ps3_fan">VENTILATEUR:</string>
+    <string name="ps3_fan_speed_up">VENTILATEUR RAPIDE</string>
+    <string name="ps3_fan_speed_down">VENTILATEUR LENTE</string>
+    <string name="ps3_fan_mode">MODE DE VENTILATEUR</string>
+    <string name="ps3_game_xml">JEU COPIER XML</string>
+    <string name="main_act_command_text">COMMANDE</string>
+    <string name="main_act_games_text">JEUS</string>
+    <string name="main_act_settings_text">PARAMÈTRES</string>
+    <string name="temp_imp_unit">Unité Impériale</string>
+    <string name="temp_met_unit">Unité Métrique</string>
+    <string name="game_frag_sent_text">"Envoyé: "</string>
+    <string name="game_frag_refresh_text">Actualiser</string>
+    <string name="game_frag_unmount_text">Démontez</string>
+    <string name="game_frag_insert_text">Insérer</string>
+    <string name="game_frag_eject_text">Éjecter</string>
+    <string name="game_frag_restart_text">Redémarrage</string>
+    <string name="game_frag_shutdown_text">Fermer</string>
+    <string name="game_frag_refresh_desc_text">Actualiser la liste des jeux</string>
+    <string name="game_frag_unmount_desc_text">Démontez la partie en cours</string>
+    <string name="game_frag_insert_desc_text">Insérer le disque</string>
+    <string name="game_frag_eject_desc_text">Éjecter le disque</string>
+    <string name="game_frag_restart_desc_text">Redémarrez votre PS3</string>
+    <string name="game_frag_shutdown_desc_text">Eteignez votre PS3</string>
+    <string name="main_ps3_connected_at">"PS3 Connecté: "</string>
+    <string name="main_please_wait_text">S\&apos;il-vous-plait attendez</string>
+    <string name="main_search_for_ps3_text">Recherche pour PS3...</string>
+    <string name="game_frag_launching_text">"Lancement "</string>
+    <string name="main_up_to_date_text">Vous êtes à jour :)</string>
+    <string name="main_copied_text">Copie</string>
+    <string name="game_frag_game_refreshed_text">Jeux rafraîchies</string>
+    <string name="main_search_view_hint_text">Envoyer un message à la PS3</string>
+    <string name="search_my_games">Search My Game</string>
+
+</resources>
